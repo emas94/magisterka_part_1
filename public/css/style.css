@@ -1,0 +1,231 @@
+body {
+    overflow-x: hidden;
+  }
+  .navbar .nav-link {
+
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+
+      }
+  .nav-link.active
+  {
+      opacity: 1;
+      color: #d6e9f8!important;
+  }
+.card1{
+
+    box-shadow: 	0 12px 24px 0rgba(255,255,255,1)!important;
+}
+.card{
+
+    box-shadow: 	0 12px 24px 0 rgba(0,0,0,0.10);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1;
+    height: 100px;
+
+}
+
+
+.bg-list
+{
+    background: #1d2124;
+    border: white 1px solid;
+}
+.bg-list a
+{
+    color: white;
+}
+.bg-list:hover
+{
+    background: #1d68a7;
+}
+.mt{
+    margin-top: 8%;
+}
+.navbar:hover
+{
+    opacity: 1;
+}
+    .navbar .nav-item.active {
+      border: #444 3px solid;
+        opacity: 1;
+    }
+#edycja
+{
+    border:0;
+}
+    .carousel-item {
+      height: 450px;
+    }
+    .carousel-image-1{
+        background: url('../img/ot.jpg');
+      background-size: cover;
+    }
+    .carousel-image-2{
+      background: url('../img/aa.jpg');
+      background-size: cover;
+  }
+  .carousel-image-3{
+      background: url('../img/cn.jpg');
+      background-size: cover;
+  }
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  #video-play
+  {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/media.jpg');
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#FFF;
+  }
+  .kontakt
+  {
+
+    min-height: 200px;
+    background: url('../img/kontakt.jpg') !important;
+
+    padding-top: 50px;
+
+  }
+  .kontakt h1{
+    color: #000;
+  }
+  .kontakt p {
+    color: #000;
+  }
+  .onas_tlo
+  {
+
+    position: relative;
+    min-height: 350px;
+    background: url('../img/onas_tlo.jpg');
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .onas_tlo h1{
+    color: #000;
+  }
+  .onas_tlo p {
+    color: #000;
+  }
+  #contact{
+    position: relative;
+    min-height: 200px;
+    background: url('../img/aa.jpg');
+      background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+  }
+  #video-play a {
+    color: #FFF;
+  }
+  .main-footer {
+
+    background:#333!important;
+    color: #fff;
+  }
+  #gallery
+  {
+    background:grey;
+  }
+
+  .autorzy
+  {     position: relative;
+    min-height: 200px;
+    background: url('../img/media.jpg');
+
+    background-position: 0 -600px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+  }
+    h1{
+        margin-top: 50px;
+    }
+    .onas img {
+          margin-top: -50px!important;
+      }
+      .autorzy  .card:hover{
+          background: red!important;
+          color: #000!important;
+      }
+      .autorzy .fab{
+          color: #000!important;
+      }
+      .card{
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .col-centered {
+        margin:auto;
+        text-align: center;
+    }
+
+      .strefaklienta
+      {
+          background: url("../img/ot.JPG");
+      }
+    .paneladmin
+    {
+        background: url("../img/man.jpg");
+        background-size: cover;
+    }
+    .logodesktop
+    {
+        height: 90px;
+        width: 300px;
+    }
+    #news
+    {
+        background: url("../img/turin.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+.container::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
+  @media screen and (max-width: 580px)
+  {
+    .ot{
+      text-align: center !important;
+      font-size: 5px !important ;
+
+    }
+      .mobilenone
+      {
+          display: none;
+      }
+
+      .logomobile
+      {
+        height: 70px;
+          width: 200px;
+      }
+      .mobilecenter{
+      text-align: center;
+             }
+  }
