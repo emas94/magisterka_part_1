@@ -228,4 +228,9 @@ body {
       .mobilecenter{
       text-align: center;
              }
+
+             .textmobile
+             {
+                font-size: 10px;
+             }
   }

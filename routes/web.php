@@ -14,6 +14,9 @@
 Route::get('/','AllController@getNews', function () {
     return view('strona_glowna/strona_glowna');
 });
+Route::get('wyniki', function () {
+    return view('wyniki');
+});
 Route::get('add/{id}','AllController@addPoints');
 Route::get('sub/{id}','AllController@substractPoints');
 Route::get('druzyny/', 'DruzynyController@druzynyIndex');
