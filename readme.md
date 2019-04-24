@@ -1,4 +1,5 @@
-<p align="center"><img src="http://emas94.nazwa.pl/img/logo.jpg" alt="logo" height="250px" width="450"></a>
+# Wyjedź z nami
+<p align="center"><img src="http://emas94.nazwa.pl/img/logo.jpg" alt="logo" height="200px" width="400"></a>
 </p>
 
 ## About Project
