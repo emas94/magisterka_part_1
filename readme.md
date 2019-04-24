@@ -1,4 +1,4 @@
-<p align="center"><img src="http://emas94.nazwa.pl/img/logo.jpggit ad" alt="logo" height="250px" width="450"></a>
+<p align="center"><img src="http://emas94.nazwa.pl/img/logo.jpg" alt="logo" height="250px" width="450"></a>
 </p>
 
 ## About Project
