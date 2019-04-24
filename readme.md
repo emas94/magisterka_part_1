@@ -1,4 +1,4 @@
-<p align="center"><img src="img/logo.jpg" alt="License"></a>
+<p align="center"><img src="http://emas94.nazwa.pl/img/logo.jpg" alt="logo"></a>
 </p>
 
 ## About Laravel
