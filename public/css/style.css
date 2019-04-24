@@ -208,8 +208,92 @@ body {
 .container::-webkit-scrollbar {
     display: none;  // Safari and Chrome
 }
+.dib
+{
+    display: inline-block;
+}
+
+
+
+.paulina
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    background: url('/img/paulina.jpg');
+    background-position: 50% 50% ;
+    background-size: 30% 100%;
+    margin-bottom: 20px;
+
+}
+
+.pszemek
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    background: url('/img/pszemek.jpg');
+    background-position: 50% 50% ;
+    background-size: 30% 100%;
+    margin-bottom: 20px;
+
+}
+#bg-wyniki
+
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        height: 450px;
+        width: 450px;
+        background-repeat: no-repeat !important;
+        background-position: 50% 50% !important;
+        background-size:100% 100%;
+        margin-bottom: 20px;
+
+    }
+    #bg-wyniki h1
+    {
+
+        text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+    }
   @media screen and (max-width: 580px)
   {
+
+    #bg-wyniki h1
+    {
+
+        text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+    }
+    #bg-wyniki
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        margin-top: 0;
+        background: url('/img/paulina.jpg');
+        background-position: 50% 50% ;
+        background-size: 100%;
+        margin-bottom: 20px;
+        background-repeat: inherit;
+    }
+      .margintop
+      {
+          margin-top: 20px;
+      }
     .ot{
       text-align: center !important;
       font-size: 5px !important ;

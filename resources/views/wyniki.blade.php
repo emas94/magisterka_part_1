@@ -15,12 +15,36 @@
     <title>Wyniki GOT</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="mt-4 mb-4 text-center">
-            <img src="img/paulina.jpg" alt="" class="img-fluid " style="width:500px; height:350px;"></div>
+<body style="background: #DCDCDC;">
+    <div id="bg-wyniki" class="img-fluid ">
+
+
+        <h1 id="tekst1" class="text-center dib">SPRAWDŹ KTO WYGRYWA</h1>
+
+
+
+    </div>
+    <div class="container mt-4 p-3 mb-5" style="background: #C0C0C0; box-shadow: 	0 12px 24px 0 rgba(0,0,0,0.10); ">
+
         <div>
-            <h2 class="text-center text-success mb-4">Wyniki po trzecim odcinku</h2>
+
+            <div class="row justify-content-around">
+                <div class="col-md-6 text-center">
+                    <p class="text-center font-weight-bold">Paulina Sobieraj</p>
+                    <p class="text-center">[Kliknij, aby powiększyć]</p>
+                    <a href="img/bingopaulina.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="300" data-width="300">
+                                    <img src="img/bingopaulina.jpg" alt="" class="img-fluid" height="150px" width="150px">
+                                </a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="text-center margintop font-weight-bold">Przemysław Matkowski</p>
+                    <p class="text-center">[Kliknij, aby powiększyć]</p>
+                    <a href="img/bingopszemo.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="150" data-width="150">
+                                        <img src="img/bingopszemo.jpg" alt="" class="img-fluid" height="150px" width="150px">
+                                    </a>
+                </div>
+            </div>
+            <h2 class="text-center text-success mb-4 mt-4">Wyniki po trzecim odcinku</h2>
             <table class="table table-bordered textmobile text-center">
                 <thead>
                     <tr>
@@ -153,3 +177,37 @@
 
     </div>
 </footer>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="{{URL::asset('js/code.js')}}"></script>
+<script>
+    /*    function flash(id, kolor, czas, kolor2, czas2)
+        {
+            document.getElementById(id).style.color = kolor;
+            setTimeout('flash("' + id + '","' + kolor2 + '",' + czas2 + ',"' + kolor + '",' + czas + ')', czas);
+        }
+*/
+
+</script>
+<script>
+    flash("tekst1", "red", 1000, "black", 1000);
+
+</script>
+
+<script>
+    function bgwyniki(id, kolor, czas, kolor2, czas2)
+            {
+                document.getElementById(id).style.background = kolor;
+                setTimeout('bgwyniki("' + id + '","' + kolor2 + '",' + czas2 + ',"' + kolor + '",' + czas + ')', czas);
+            }
+
+</script>
+<script>
+    bgwyniki("bg-wyniki", "url('/img/paulina.jpg')", 1000, "url('/img/pszemek.jpg')", 1000);
+
+</script>
